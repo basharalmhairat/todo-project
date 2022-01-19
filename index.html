@@ -4,39 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>todo list </title>
-    
-    <style>
-        
-        ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-        }
-        
-        li {
-          float: left;
-        }
-        
-        li a {
+      <title>todo list</title>
+      <h1 style="color:blue;text-align:center;">Todo list</h1>
+      <style>
+        img {
           display: block;
-          padding: 8px;
-          background-color: #2e68b4;
+          margin-left: auto;
+          margin-right: auto;
         }
         </style>
+    <style>
+         
+         ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(51, 50, 94);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(32, 65, 175);
+}
+
+.active {
+  background-color: #44AA6D;
+}
+        </style>
+        <style>
+          h7 {
+            background-color: green;
+          }
+          
+          div {
+            background-color: lightblue;
+          }
+          
+          p {
+            background-color: yellow;
+          }
+          </style>
+        
 </head>
+
+
+  
 <body>
-    <h1>todo list</h1>
+  
     <img src="https://cdn-icons-png.flaticon.com/512/906/906334.png" alt="Trulli" width="200" height="200">
 
 
     <header>
-<h3>MENU</h3>
         <ul>
-            <li><a href="/index.html">home</a>  </li>
-            <li><a href="/about.html">about</a></li>
-            
+            <li><a href="/index.html">Home      </a></li>
+            <li><a href="/about.html">about     </a></li>
+            <li><a href="/index.html">contact us </a></li>
+            <li><a href="/index.html">location  </a></li>
+            <li><a href="/index.html">sign in   </a></li>
+            <li><a href="/index.html">join us     </a></li>
           </ul>
         
 
@@ -48,24 +85,45 @@
               <th>taskes</th>
               <th>stauts</th>
               <style>
-                table, th, td {
-                  border:1px solid rgb(0, 0, 0);
-                }
+                table, td, th {
+  border: 2px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td {
+  text-align: center;
+}
                 </style>
                 <body>
                 <h2>the stauts of the taskes</h2>
             </tr>
             <tr>
               <td>do homework </td>
-              <td>done</td>
+              <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
             </tr>
             <tr>
               <td>go to the gym</td>
-              <td>not done</td>
+              <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
             </tr>
              <tr>
               <td>write some code</td>
-              <td>done</td>
+              <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+              <tr>
+                <td>pay the bills</td>
+                <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                <tr>
+                  <td>go to the doctor</td>
+                  <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                  <tr>
+                    <td>vist my parentes</td>
+                    <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+                  </tr>
+                </tr>
+              </tr>
             </tr>
           </table>
            
@@ -75,7 +133,9 @@
     </main>
     <footer>
         <h2>here are some tips for how to do your list</h2>
+        
        <div>
+         
         1.Make To-do Lists. To-do lists are classic, yet powerful and effective more than ever today. ...<br>
         2.Prioritize. Understandably, not everything on your to-do list needs to be done right away. ...<br>
         3.Schedule. ...<br>

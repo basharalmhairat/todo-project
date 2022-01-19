@@ -5,79 +5,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>todo list</title>
-    <style>
-        ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-        }
-        
-        li {
-          float: left;
-        }
-        
-        li a {
+      <h1 style="color:blue;text-align:center;">Todo list</h1>
+      <style>
+        img {
           display: block;
-          padding: 8px;
-          background-color: #2e68b4;
+          margin-left: auto;
+          margin-right: auto;
         }
-        
         </style>
+    <style>
+         
+         ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(51, 50, 94);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(32, 65, 175);
+}
+
+.active {
+  background-color: #44AA6D;
+}
+        </style>
+        <style>
+          h7 {
+            background-color: rgb(160, 160, 160);
+          }
+          
+          p1 {
+            background-color: lightblue;
+          }
+          
+          p3 {
+            background-color: rgb(199, 255, 221);
+          }
+          </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
+
+  
 <body>
-   
+  
+    <img src="https://cdn-icons-png.flaticon.com/512/906/906334.png" alt="Trulli" width="200" height="200">
+
+
     <header>
-        <h1>todo list</h1>
-        <img src="https://cdn-icons-png.flaticon.com/512/906/906334.png" alt="Trulli" width="200" height="200">
-    
-    
-        <header>
-    <h3>MENU</h3>
-            <ul>
-                <li><a href="/index.html">home</a>  </li>
-                <li><a href="/about.html">about</a></li>
-                
-              </ul>
+        <ul>
+            <li><a href="/index.html">Home      </a></li>
+            <li><a href="/about.html">about     </a></li>
+            <li><a href="/index.html">contact us </a></li>
+            <li><a href="/index.html">location  </a></li>
+            <li><a href="/index.html">sign in   </a></li>
+            <li><a href="/index.html">join us     </a></li>
+          </ul>
+        
+
+              
     </header>
     <main>
 <section id="abouat me">
-
-Hello my name is bashar <br>
-<img src="C:\Users\BASHAR\OneDrive\Desktop\graduation" alt="Trulli" width="200" height="200">
+  <picture>
+    <source srcset="C:\Users\BASHAR\Desktop">
+    <img src="id picture" alt="Bashar" style="width:auto;">
+  </picture>
+ 
+<h7>Hello my name is bashar <br>
 live in amman jordan<br>
 frome amman jordan<br>
-graduated from aau with softwear engeniring in 2019<br>
+graduated from aau with softwear engeniring in 2019<br></h7>
 </section >
 <section id="sign in">
+<h2>*****</h2>
+    <h2>submint your info and i will be dealing with them</h2>
 
-    <h2>Submit your info</h2>
 
-    <p>input your <strong> message ,name and email</strong> in this form:</p>
-    
+    <p1>input your <strong> message ,name and email</strong> in this form:</p1><br>
+    <p1>*****</p1>
     <form action="/action_page.php">
     
-      <label for="full name">full name:</label><br>
+      <label for="full name"><strong> full name:</strong></label><br>
       <input type="text" id="full name" full name="full name"><br>
       
-      <label for="email">email:</label><br>
+      <label for="email"><strong>email:</strong></label><br>
       <input type="email" id="email" email="lname" ><br><br>
       
-      <label for="message">your meesage:</label><br>
+      <label for="message"><strong>your meesage:</strong></label><br>
       <input type="text" id="text" text="text" ><br><br>
       
-      <input type="submit" value="Submit">
+      <input type="submit" value= "Submit">
     </form> 
 </section>
     </main>
     <footer>
-       <h3> What should a to-do list have?</h3>
-        Image result for todo list<br>
-        Make More Than One List.<br>
-        You shouldn't have just one to-do list.<br>
-        You should have a few lists that cover the major categories of your life, 
-        such as Work Tasks, Personal To-Dos, and Household Chores.<br>
-        Having more than one list helps you focus.<br>
+       <h3> What should a to-do list have?</h3><br>
+       <p3> Image result for todo list</p3><br>
+        <p3>Make More Than One List.</p3><br>
+        <p3>You shouldn't have just one to-do list.</p3><br>
+        <p3>You should have a few lists that cover the major categories of your life, </p3><br>
+        <p3> such as Work Tasks, Personal To-Dos, and Household Chores</p3><br>
+        <p3>Having more than one list helps you focus.</p3><br>
 
     </footer>
 </body>
